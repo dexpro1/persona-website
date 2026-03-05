@@ -1,0 +1,251 @@
+body {
+    padding: 0; 
+    margin: 0;
+}
+
+
+.layout1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/bcck.png);
+    background-color: #1d59af;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.layout {
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 0;
+}
+
+.inside {
+    padding-top: 270px;
+}
+
+.inside img {
+    display: block;
+    margin: 0; 
+    padding: 0;
+}
+
+.inside h1 {
+    font-size: 4rem;
+    color: white;
+    font-family: "Montez", cursive;
+    margin: 0; 
+}
+
+.inside p {
+    color: white;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.inside p span {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.move {
+    position: absolute;
+}
+
+.adjust1 {
+    top: 350px;
+    left: 50px;
+}
+
+.adjust2 {
+    top: 100px;
+    left: 210px;
+}
+
+.adjust3 {
+    top: 180px;
+    left: 650px;
+}
+
+.adjust4 {
+    top: 80px;
+    right: 100px;
+}
+
+#rearrange {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#rearrange img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#rearrange h2 {
+    font-family: "Playwrite NZ Basic", cursive;
+    font-weight: bolder;
+    color: #1d59af;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#rearrange p {
+    font-family: sans-serif;
+    color: #072835;
+    font-size: 1.3rem;
+    margin: 0; 
+    padding: 0;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+#rearrange a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-image: linear-gradient(to bottom, rgb(166, 216, 225), rgb(121, 152, 224));
+   
+}
+
+#rearrange a:hover {
+    background-image: linear-gradient(to bottom, rgb(166, 216, 225), rgb(5, 77, 97));
+    color: white;
+}
+
+
+.aside {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 5px;
+    min-height: 50vh;
+    padding: 50px;
+}
+
+.blend {
+    font-family: "Playwrite NZ Basic", cursive;
+    font-weight: bolder;
+    color: #1d59af;
+    font-size: 1.7rem;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.experience ul li {
+    list-style: none;
+    line-height: 2;
+    font-family: sans-serif;
+    color: #072835;
+    font-size: 1rem;
+    margin: 0; 
+    padding: 0;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.interest ul li {
+    list-style: none;
+    line-height: 2;
+    font-family: sans-serif;
+    color: #072835;
+    font-size: 1rem;
+    margin: 0; 
+    padding: 0;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.together {
+    grid-row: span 4;
+    padding: 0;
+    text-align: center;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.contact-me {
+    padding: 50px; 
+    text-align: center;
+}
+
+.contact-me h2 {
+    font-family: "Playwrite NZ Basic", cursive;
+    font-weight: bolder;
+    color: #1d59af;
+    font-size: 1.7rem;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.contact-me h3 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #1d59af;
+    font-size: 1.3rem;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.contact-message {
+    font-family: sans-serif;
+    color: #072835;
+    font-size: 1.3rem;
+    margin: 0; 
+    padding: 0;
+    margin-bottom: 50px;
+    line-height: 2; 
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-image: linear-gradient(to bottom, rgb(166, 216, 225), rgb(121, 152, 224));
+}
+
+.contact-me a:hover {
+    background-image: linear-gradient(to bottom, rgb(166, 216, 225), rgb(5, 77, 97));
+    color: white;
+}
+
+.bottom-container {
+    padding: 50px; 
+    text-align: center;
+    background-color: #1d59af;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: #b9c7db;
+    margin-right: 50px;
+}
+
+.bottom-container p {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
